@@ -1,0 +1,42 @@
+# Badges for ZenFocus-Time-Management-Productivity-Utility
+
+# Dynamic URLs based on the repository owner and name
+base_url: https://github.com/chirag127/ZenFocus-Time-Management-Productivity-Utility
+
+# Badges configuration
+badges:
+  - name: Build Status
+    url: https://img.shields.io/github/actions/workflow/status/chirag127/ZenFocus-Time-Management-Productivity-Utility/ci.yml?style=flat-square
+    markdown: "[![Build Status](https://img.shields.io/github/actions/workflow/status/chirag127/ZenFocus-Time-Management-Productivity-Utility/ci.yml?style=flat-square)]({base_url}/actions/workflows/ci.yml)"
+
+  - name: Code Coverage
+    url: https://img.shields.io/codecov/c/github/chirag127/ZenFocus-Time-Management-Productivity-Utility?style=flat-square
+    markdown: "[![Code Coverage](https://img.shields.io/codecov/c/github/chirag127/ZenFocus-Time-Management-Productivity-Utility?style=flat-square)]({base_url}/coverage)"
+
+  - name: Tech Stack (TypeScript)
+    url: https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white
+    markdown: "[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)]()" # No direct link needed for tech badges
+
+  - name: Tech Stack (Tauri)
+    url: https://img.shields.io/badge/Tauri-000000?style=flat-square&logo=tauri&logoColor=white
+    markdown: "[![Tauri](https://img.shields.io/badge/Tauri-000000?style=flat-square&logo=tauri&logoColor=white)]()"
+
+  - name: Tech Stack (Vite)
+    url: https://img.shields.io/badge/Vite-6449FF?style=flat-square&logo=vite&logoColor=white
+    markdown: "[![Vite](https://img.shields.io/badge/Vite-6449FF?style=flat-square&logo=vite&logoColor=white)]()"
+
+  - name: Linting (Biome)
+    url: https://img.shields.io/badge/Biome-A4BD97?style=flat-square&logo=biome&logoColor=white
+    markdown: "[![Biome](https://img.shields.io/badge/Biome-A4BD97?style=flat-square&logo=biome&logoColor=white)]()"
+
+  - name: Testing (Vitest)
+    url: https://img.shields.io/badge/Vitest-38B287?style=flat-square&logo=vitest&logoColor=white
+    markdown: "[![Vitest](https://img.shields.io/badge/Vitest-38B287?style=flat-square&logo=vitest&logoColor=white)]()"
+
+  - name: License
+    url: https://img.shields.io/badge/License-CC%20BY--NC%204.0-blue?style=flat-square
+    markdown: "[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-blue?style=flat-square)]({base_url}/blob/main/LICENSE)"
+
+  - name: GitHub Stars
+    url: https://img.shields.io/github/stars/chirag127/ZenFocus-Time-Management-Productivity-Utility?style=flat-square&show_count=true
+    markdown: "[![GitHub Stars](https://img.shields.io/github/stars/chirag127/ZenFocus-Time-Management-Productivity-Utility?style=flat-square&show_count=true)]({base_url})"
